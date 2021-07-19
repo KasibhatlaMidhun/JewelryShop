@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Website</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="about-header">
+        <nav>
+            <ul>
+                <li>
+                    <span class="logolink">
+                    <a href="index.html">
+                       <img src="./images/logo.png" alt="logo">
+                       <h1>The Great Indian Jewelry</h1>    
+                    </a>
+                    </span> 
+                </li>
+                <div class="navitems-about">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collection.html">Collections</a></li>
+                    <!--<li><a href="cart.html">Cart</a></li>-->
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="contact.html">Contact us</a></li> 
+                    <li><a href="login.html">Login</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+            <form id="form" class="form">
+                <h2>Login / Signup</h2>
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter username">
+                    <div class="hide">Must be atleast 3 characters</div>
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                 <label for="email">Email</label>
+                 <input type="text" id="email" placeholder="Enter email">
+                 <small>Error message</small>
+             </div>
+             <div class="form-control">
+                 <label for="password">Password</label>
+                 <input type="password" id="password"  placeholder="Enter password" titile="Maintain 6 to 20 characters with atleast one numeric digit, one uppercase and one lowercase letter">
+                 <div class="hide">Maintain 6 to 20 characters with atleast one numeric digit, one uppercase and one lowercase letter</div>
+                 <small>Error message</small>
+             </div>
+             <div class="form-control">
+                 <label for="password2">Confirm Password</label>
+                 <input type="password" id="password2" placeholder="Enter password again">
+                 <small>Error message</small>
+             </div>
+             <button>Submit</button>
+            </form>
+    </div>
+     
+    <script src="login.js"></script>
+</body>
+</html>
